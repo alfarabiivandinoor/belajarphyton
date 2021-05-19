@@ -18,7 +18,12 @@
 # for i in range (1, T+1):
 # 	print((i * " ") + ((T-i+1) * "*"))
 
-# Membuat piramida
-T = int(input("Masukan Angka : "))
-for i in range (1, T+1):
-    print ((T-i+1) * " " + ("*" * ((i*2)-1)))
+# # Membuat piramida
+# T = int(input("Masukan Angka : "))
+# for i in range (1, T+1):
+#     print ((T-i+1) * " " + ("*" * ((i*2)-1)))
+
+# # Membuat piramida terbaik
+# T = int(input("Masukan Angka : "))
+# for i in range (1, T+1):
+#     print ((i*" ") + (("*" * (((T-i+1) * 2)-1))))
