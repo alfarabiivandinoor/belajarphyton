@@ -23,7 +23,17 @@
 # for i in range (1, T+1):
 #     print ((T-i+1) * " " + ("*" * ((i*2)-1)))
 
-# # Membuat piramida terbaik
+# # Membuat piramida terbalik
 # T = int(input("Masukan Angka : "))
 # for i in range (1, T+1):
 #     print ((i*" ") + (("*" * (((T-i+1) * 2)-1))))
+
+# Membuat piramida berisi
+T = int(input("Masukan Angka : "))
+# (A, X, B)
+for i in range (1, T+1):
+    # print ((T-i+1) * " " + ("*" * ((i*2)-1)))
+    if i % 2 == 0:
+        print (((T)) * "*")
+    else : 
+        print ((T-i+1) * " " + ("*" * ((i*2)-1)))
