@@ -38,3 +38,16 @@
 #         print ((T-i+1) * " " + (int(T/2 - 1/2) * "*") + "o" + (int(T/2 - 1/2) * "*"))
 #     else :
 #         print ((T-i+1) * " " + ("*" * ((i*2)-1)))
+
+# Membuat skor kelulusan
+T = (int(input("Masukan Nilai : ")))
+if T >= 85:
+    print ("Nilai : A")
+elif T in range (75, 84):
+    print ("Nilai : B")
+elif T in range (65, 74):
+    print ("Nilai : C")
+elif T in range (55, 64):
+    print ("Nilai : D")
+elif T <= 54:
+    print ("GOBLOK")
