@@ -33,7 +33,9 @@ T = int(input("Masukan Angka : "))
 # (A, X, B)
 for i in range (1, T+1):
     # print ((T-i+1) * " " + ("*" * ((i*2)-1)))
-    if i % 2 == 0:
-        print (((T)) * "*")
-    else : 
+    if i == (((T/2)+1)-1/2):
+        print ((T-i+1) * " " + (int(T/2 - 1/2) * "*") + "o" + (int(T/2 - 1/2) * "*"))
+    elif i == T/2: 
+        print ((T-i+1) * " " + (int(T/2 - 1/2) * "*") + "o" + (int(T/2 - 1/2) * "*"))
+    else :
         print ((T-i+1) * " " + ("*" * ((i*2)-1)))
