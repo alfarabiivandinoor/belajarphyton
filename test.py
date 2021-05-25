@@ -84,8 +84,16 @@
 #                 leap = True
 #         elif c == 0 :
 #             leap = True
-
 #     return leap
-    
 # year = int(input("Masukan : "))
 # print(is_leap(year))
+
+# # Soal HackerRank #2
+# def pengulangan(i) :
+#     z = ""
+#     for u in range(1, i+1) :
+#         z += str(u)
+        
+#     return z
+# n = int(input("Masukan Angka : "))
+# print (pengulangan(n))
