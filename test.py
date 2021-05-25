@@ -39,15 +39,53 @@
 #     else :
 #         print ((T-i+1) * " " + ("*" * ((i*2)-1)))
 
-# Membuat skor kelulusan
-T = (int(input("Masukan Nilai : ")))
-if T >= 85:
-    print ("Nilai : A")
-elif T in range (75, 84):
-    print ("Nilai : B")
-elif T in range (65, 74):
-    print ("Nilai : C")
-elif T in range (55, 64):
-    print ("Nilai : D")
-elif T <= 54:
-    print ("GOBLOK")
+# # Membuat skor kelulusan
+# T = (int(input("Masukan Nilai : ")))
+# if T >= 85:
+#     print ("Nilai : A")
+# elif T in range (75, 84):
+#     print ("Nilai : B")
+# elif T in range (65, 74):
+#     print ("Nilai : C")
+# elif T in range (55, 64):
+#     print ("Nilai : D")
+# elif T <= 54:
+#     print ("GOBLOK")
+
+# def pesanan(makanan, minuman, pesanan_lain):
+#     makan = 0
+#     minum = 0
+#     if makanan == 'Nasi Uduk' :
+#         makan += 1
+#     if pesanan_lain == 'Nasi Padang' :
+#         makan += 1
+#     if minuman == 'Amer' :
+#         minum += 1
+
+#     return makan, minum
+
+# makanan = input("masukin makanan : ")
+# minuman = input("masukin minuman : ")
+# pesanan_lain = input("Tambahan? : ")
+# print("Total Pesanan", pesanan(makanan, minuman, pesanan_lain))
+
+# # Soal HackerRank
+# def is_leap(year):
+#     leap = False
+#     a = (year % 4)
+#     b = (year % 100)
+#     c = (year % 400)
+    
+#     if a == 0 :
+#         leap = True
+#         if b == 0 :
+#             leap = False
+#             if c == 0 :
+#                 leap = True
+#         elif c == 0 :
+#             leap = True
+
+#     return leap
+    
+# year = int(input("Masukan : "))
+# print(is_leap(year))
