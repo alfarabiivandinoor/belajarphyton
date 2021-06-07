@@ -119,16 +119,20 @@
 #     n = int(input("Masukan N : "))
 #     print ([[i,j,k] for i in range (0, x+1) for j in range (0, y+1) for k in range (0, z+1) if i+j+k != n])
 
-# Soal HackerRank $5
-if __name__ == '__main__':
-    n = int(input())
-    a = [int(x) for x in input().split()]
-    largest = secondlargest = -100
-    for x in a:
-        if x > largest:
-            tmp = largest
-            largest = x
-            secondlargest = tmp
-        elif x > secondlargest and x != largest:
-            secondlargest = x
-    print(secondlargest)
+# # Soal HackerRank $5
+# if __name__ == '__main__':
+#     n = int(input())
+#     a = [int(x) for x in input().split()]
+#     largest = secondlargest = -100
+#     for x in a:
+#         if x > largest:
+#             tmp = largest
+#             largest = x
+#             secondlargest = tmp
+#         elif x > secondlargest and x != largest:
+#             secondlargest = x
+#     print(secondlargest)
+
+# Soal HackerRank #6
+for i in range(1,int(input("Masukan Angka : ")) + 1):
+    print (max(i))
