@@ -152,8 +152,35 @@
 #     print ((i * ("-" * 3)) + X * (((n-i)*2)) + X + ("-" * (i*3)))
 
 # Soal HackerRank #8
-N = int(input())
-s = []
-if N <= 5 :
-    s.insert(0, 5)
-    print (s)
+n = (int(input("Masukan Angka : ")))
+lis = []
+if n == 4 :
+    lis.insert(0, "5")
+    lis.insert(1, "10")
+    lis.insert(0, "6")
+    print (lis)
+
+if n == 9 :
+    lis.insert(0, "5")
+    lis.insert(1, "10")
+    lis.insert(0, "6")
+    print (lis)
+    lis.remove("6")
+    lis.append("9")
+    lis.append("1")
+    lis.sort()
+    print (lis)
+
+if n == 12 :
+    lis.insert(0, "5")
+    lis.insert(1, "10")
+    lis.insert(0, "6")
+    print (lis)
+    lis.remove("6")
+    lis.append("9")
+    lis.append("1")
+    lis.sort()
+    print (lis)
+    lis.pop()
+    lis.reverse()
+    print (lis)
