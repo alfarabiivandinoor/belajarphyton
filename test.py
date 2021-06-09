@@ -134,5 +134,9 @@
 #     print(secondlargest)
 
 # Soal HackerRank #6
-for i in range(1,int(input("Masukan Angka : ")) + 1):
-    print (max(i))
+# import textwrap
+
+# def wrap(string, max_width):
+#     return "\n".join([string[i:i+max_width] for i in range(0, len(string), max_width)])
+
+# if __name__ == '__main__':
