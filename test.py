@@ -133,10 +133,27 @@
 #             secondlargest = x
 #     print(secondlargest)
 
-# Soal HackerRank #6
+# # Soal HackerRank #6
 # import textwrap
+# a = ('bdqwygxwgywgcwy8cg8wogc8wgcw8cw8cgwcwcwcu')
+# print (textwrap.fill (a, width=int(input("Angka : "))))
 
-# def wrap(string, max_width):
-#     return "\n".join([string[i:i+max_width] for i in range(0, len(string), max_width)])
+# Soal HackerRank #7
+# N = (int(input('Masukan Angka : ')))
+# n = (int((N-1)/2))
+# M = (N*3)
+# m = (int((M-7)/2))
+# X = (str('.|.'))
+# W = (str('WELCOME'))
+# for i in range (1, n+1) :
+#     print ((((n+1)-i) * ("-" * 3)) + (((X * (i-1) * 2) + X)) + (((n+1)-i)) * ("-" * 3))
+# print (("-" * m) + W + ("-" * m))
+# for i in range (1, n+1):
+#     print ((i * ("-" * 3)) + X * (((n-i)*2)) + X + ("-" * (i*3)))
 
-# if __name__ == '__main__':
+# Soal HackerRank #8
+N = int(input())
+s = []
+if N <= 5 :
+    s.insert(0, 5)
+    print (s)
